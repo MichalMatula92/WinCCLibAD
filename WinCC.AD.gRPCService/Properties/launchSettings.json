@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "WinCC.AD.gRPCService": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "applicationUrl": "http://192.168.128.3:50000;https://192.168.128.3:50001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

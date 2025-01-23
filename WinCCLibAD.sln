@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinCC.AD.gRPCService", "WinCC.AD.gRPCService\WinCC.AD.gRPCService.csproj", "{943AD254-B594-4246-8668-36EFACDDE785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cred", "Cred\Cred.csproj", "{82FC026D-36E5-412D-9DC7-60CE06A4B79D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCC.AD.gRPCClient", "WinCC.AD.gRPCClient\WinCC.AD.gRPCClient.csproj", "{AD489931-6DC6-45C7-A1AD-0280393F1B5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LDAP", "LDAP\LDAP.csproj", "{3DEB7116-C338-4651-814B-ED56373AB24D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCC.AD.gRPCClientFormTest", "WinCC.AD.gRPCClientFormTest\WinCC.AD.gRPCClientFormTest.csproj", "{2DEF42DB-8042-4FAA-88EE-6D73FFBF9D6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServer", "SqlServer\SqlServer.csproj", "{6D6CE541-DAD1-425B-B6D8-DB3032B729B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{943AD254-B594-4246-8668-36EFACDDE785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943AD254-B594-4246-8668-36EFACDDE785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943AD254-B594-4246-8668-36EFACDDE785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943AD254-B594-4246-8668-36EFACDDE785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FC026D-36E5-412D-9DC7-60CE06A4B79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FC026D-36E5-412D-9DC7-60CE06A4B79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FC026D-36E5-412D-9DC7-60CE06A4B79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FC026D-36E5-412D-9DC7-60CE06A4B79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD489931-6DC6-45C7-A1AD-0280393F1B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD489931-6DC6-45C7-A1AD-0280393F1B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD489931-6DC6-45C7-A1AD-0280393F1B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD489931-6DC6-45C7-A1AD-0280393F1B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEB7116-C338-4651-814B-ED56373AB24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEB7116-C338-4651-814B-ED56373AB24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEB7116-C338-4651-814B-ED56373AB24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEB7116-C338-4651-814B-ED56373AB24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEF42DB-8042-4FAA-88EE-6D73FFBF9D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEF42DB-8042-4FAA-88EE-6D73FFBF9D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEF42DB-8042-4FAA-88EE-6D73FFBF9D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEF42DB-8042-4FAA-88EE-6D73FFBF9D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6CE541-DAD1-425B-B6D8-DB3032B729B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6CE541-DAD1-425B-B6D8-DB3032B729B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6CE541-DAD1-425B-B6D8-DB3032B729B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6CE541-DAD1-425B-B6D8-DB3032B729B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F78D0298-2764-48D1-AF17-8AF38B6F8B76}
+	EndGlobalSection
+EndGlobal
